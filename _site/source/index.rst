@@ -1,5 +1,3 @@
-.. |logo| image:: _static/images/logo.png
-
 .. toctree::
     :hidden:
     :maxdepth: 1
@@ -8,9 +6,9 @@
     guide/getting_started
     guide/installation
 
-=========================================
-|logo| Welcome to CSBill's documentation!
-=========================================
+==================================
+Welcome to CSBill's documentation!
+==================================
 
 CSBill is an open-source application that allows you to manage clients and contacts and send invoices and quotes.
 
