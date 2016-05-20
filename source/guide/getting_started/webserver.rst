@@ -9,7 +9,7 @@ E.G If you upload the files to a ./billing/ directory, then you can access the s
 
 .. tip::
 
-    If you are using PHP 5.4, you can use the :ref:`built-in server <built-in-server-label>`
+    You can also use the :ref:`built-in server <built-in-server-label>`, although it is not recommended for production use.
 
 .. _apache-server-label:
 
