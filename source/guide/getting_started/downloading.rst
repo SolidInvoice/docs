@@ -62,11 +62,12 @@ To install CSBill using `composer`_, run the following commands
 This will download CSBill into a directory called `csbill`, and will also install all the dependencies.
 If you encounter any issues while trying to install, please report the issues, or try to resolve them yourself.
 
-The last step is to dump all the web assets
+The last step is to dump all the web assets and compile the Handlebars templates
 
 .. code-block:: bash
 
     $ php app/console assetic:dump -e prod
+    $ php app/console handlebars:compile -e prod
 
 Using Git
 ---------
@@ -86,10 +87,11 @@ Then go into the repository directory and install all the dependencies
 
 If you encounter any issues while trying to install, please report the issues, or try to resolve them yourself.
 
-The last step is to dump all the web assets
+The last step is to dump all the web assets and compile the Handlebars templates
 
 .. code-block:: bash
 
     $ php app/console assetic:dump -e prod
+    $ php app/console handlebars:compile -e prod
 
 .. _composer: http://getcomposer.org/
