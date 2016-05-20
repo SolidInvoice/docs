@@ -92,7 +92,7 @@ To start the built-in web server, run the following command:
 
 This will start the local web server, which is accessible at http://localhost:8080
 
-.. error::
+.. danger::
 
     The built-in web server is not meant to be used for production.
     If you want to run CSBill in a production environment, rather use :ref:`apache <apache-server-label>` or :ref:`nginx <nginx-server-label>`
