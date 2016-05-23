@@ -60,14 +60,14 @@ To install CSBill using `composer`_, run the following commands
     $ php composer.phar create-project csbill/csbill
 
 This will download CSBill into a directory called `csbill`, and will also install all the dependencies.
-If you encounter any issues while trying to install, please report the issues, or try to resolve them yourself.
+If you encounter any issues while trying to install, please submit a `bug report`_.
 
-The last step is to dump all the web assets and compile the Handlebars templates
+The last step is to install the Node packages and dump all the web assets
 
 .. code-block:: bash
 
-    $ php app/console assetic:dump -e prod
-    $ php app/console handlebars:compile -e prod
+    $ npm install
+    $ ./node_modules/.bin/gulp
 
 Using Git
 ---------
@@ -78,20 +78,23 @@ If you want to install CSBill using git, you can clone the repository using the 
 
     $ git clone https://github.com/CSBill/CSBill.git
 
-Then go into the repository directory and install all the dependencies
+You will then need `composer`_ to  install the required dependencies. To install Composer, please refer to the `installing-composer`_ section.
+
+Go into the repository directory and install all the dependencies
 
 .. code-block:: bash
 
     $ cd CSBill
     $ php composer.phar install
 
-If you encounter any issues while trying to install, please report the issues, or try to resolve them yourself.
+If you encounter any issues while trying to install, please submit a `bug report`_.
 
-The last step is to dump all the web assets and compile the Handlebars templates
+The last step is to install the Node packages and dump all the web assets
 
 .. code-block:: bash
 
-    $ php app/console assetic:dump -e prod
-    $ php app/console handlebars:compile -e prod
+    $ npm install
+    $ ./node_modules/.bin/gulp
 
 .. _composer: http://getcomposer.org/
+.. _bug report: https://github.com/CSBill/CSBill/issues
