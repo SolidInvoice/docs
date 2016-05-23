@@ -10,18 +10,6 @@ Installation
 
 When navigating to the application for the first time, you will automatically land on the installation page.
 
--------------------
-System Requirements
--------------------
-
-.. note::
-    In order to run CSBill, you need at least PHP version **5.6.10**, but the latest version is always recommended
-
-**Requirements:**
-
-* PHP (>=5.6.10)
-* MySQL Database (> 5.5.0)
-
 This page will show if your system meets all the requirements in order to run CSBill.
 If your system does not meet the requirements, an error message will advise you what you need to change in order to meet the requirements.
 After you have fixed any issues, refresh the page by either pressing ``F5`` or hitting the ``Refresh`` button.
