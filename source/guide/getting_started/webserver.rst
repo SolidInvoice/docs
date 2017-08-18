@@ -17,7 +17,7 @@ E.G If you upload the files to a ./billing/ directory, then you can access the s
 Configuring Apache
 ------------------
 
-To run CSBill on apache, you need to create a custom virtual host.
+To run SolidInvoice on apache, you need to create a custom virtual host.
 
 .. code-block:: apache
 
@@ -25,16 +25,16 @@ To run CSBill on apache, you need to create a custom virtual host.
         ServerName yourdomain.com
         ServerAlias www.yourdomain.com
 
-        DocumentRoot /var/www/html/csbill/web
-        <Directory /var/www/html/csbill/web>
+        DocumentRoot /opt/solidinvoice/web
+        <Directory /opt/solidinvoice/web>
             # enable the .htaccess rewrites
             AllowOverride All
             Order allow,deny
             Allow from All
         </Directory>
 
-        ErrorLog /var/log/apache2/csbill.error.log
-        CustomLog /var/log/apache2/csbill.access.log combined
+        ErrorLog /var/log/apache2/solidinvoice.error.log
+        CustomLog /var/log/apache2/solidinvoice.access.log combined
     </VirtualHost>
 
 .. warning::
@@ -48,13 +48,13 @@ To run CSBill on apache, you need to create a custom virtual host.
 Configuring NginX
 -----------------
 
-To run CSBill on NginX, you need to create a custom virtual host.
+To run SolidInvoice on NginX, you need to create a custom virtual host.
 
 .. code-block:: nginx
 
     server {
         server_name yourdomain.com www.yourdomain.com;
-        root /var/www/html/csbill/web;
+        root /opt/solidinvoice/web;
 
         location / {
             # try to serve file directly, fallback to app.php
@@ -95,7 +95,7 @@ This will start the local web server, which is accessible at http://localhost:80
 .. danger::
 
     The built-in web server is not meant to be used for production.
-    If you want to run CSBill in a production environment, rather use :ref:`apache <apache-server-label>` or :ref:`nginx <nginx-server-label>`
+    If you want to run SolidInvoice in a production environment, rather use :ref:`apache <apache-server-label>` or :ref:`nginx <nginx-server-label>`
 
 For more info on the built-in server,
 or options you can use when using the built-in server see http://php.net/manual/en/features.commandline.webserver.php or http://symfony.com/doc/current/cookbook/web_server/built_in.html

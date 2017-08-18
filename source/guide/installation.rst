@@ -1,8 +1,8 @@
-.. |installation| image:: /_static/images/screencapture-csbill-dev-install-system_check-1463729589408.png
-.. |config| image:: /_static/images/screencapture-csbill-dev-install-config-1463729935642.png
-.. |process| image:: /_static/images/screencapture-csbill-dev-install-process-1463734010318.png
-.. |setup| image:: /_static/images/screencapture-csbill-dev-install-setup-1463734324044.png
-.. |final| image:: /_static/images/screencapture-csbill-dev-install-finish-1463735106659.png
+.. |installation| image:: /_static/images/installation-requirements-check.png
+.. |config| image:: /_static/images/installation-config.png
+.. |process| image:: /_static/images/installation-install.png
+.. |setup| image:: /_static/images/installation-config.png
+.. |final| image:: /_static/images/installation-finish.png
 
 ============
 Installation
@@ -10,7 +10,7 @@ Installation
 
 When navigating to the application for the first time, you will automatically land on the installation page.
 
-This page will show if your system meets all the requirements in order to run CSBill.
+This page will show if your system meets all the requirements in order to run SolidInvoice.
 If your system does not meet the requirements, an error message will advise you what you need to change in order to meet the requirements.
 After you have fixed any issues, refresh the page by either pressing ``F5`` or hitting the ``Refresh`` button.
 
@@ -27,7 +27,7 @@ This step allows you to set up your database and email configuration.
 Database Configuration
 ++++++++++++++++++++++
 
-Add your database information. If the database doesn't exist, CSBill will attempt to create it.
+Add your database information. If the database doesn't exist, SolidInvoice will attempt to create it.
 
 .. attention::
     Only MySQL is supported at the moment. Support for other databases may be added in a future release
@@ -39,25 +39,25 @@ Set up your email configuration in order to send out emails.
 
 Current supported email transports:
 
-* PHP Mail
+:PHP Mail:
 
-    Uses the standard ``mail()`` function of PHP.
+  Uses the standard ``mail()`` function of PHP.
 
-    .. note::
-        Your server must be configured correctly for this to work.
+  .. note::
+    Your server must be configured correctly for this to work.
 
-* Sendmail
+:Sendmail:
 
     Uses Sendmail for sending emails.
 
     .. note::
         Sendmail must be set up and configured properly on server for this to work.
 
-* SMTP
+:SMTP:
 
     Connects to a SMTP server for sending emails.
 
-* Gmail
+:Gmail:
 
     Sends emails through Gmail. **Note**: A valid Gmail account and password must be provided.
 
@@ -81,7 +81,7 @@ System Information
 
 The following values needs to be configured:
 
-* Locale
+:Locale:
 
     .. note::
       The Locale doesn't only determine the language to use. It is also used for currency and number formatting. So be sure to choose the correct locale for your country.
@@ -89,8 +89,8 @@ The following values needs to be configured:
     .. note::
       Only the ``English`` language is supported at the moment, but support for other languages may be added in a future release.
 
-* Currency
-* Base Url
+:Currency:
+:Base Url:
 
     This value should be pre-populated, and in most cases can remain unchanged.
 

@@ -8,11 +8,11 @@
     guide/getting_started
     guide/installation
 
-=========================================
-|logo| Welcome to CSBill's documentation!
-=========================================
+==========================
+SolidInvoice Documentation
+==========================
 
-CSBill is an open-source application that allows you to manage clients and contacts and send invoices and quotes.
+SolidInvoice is an open-source application that allows you to manage clients and contacts and send invoices and quotes.
 
 ----------
 User Guide
