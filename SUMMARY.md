@@ -1,10 +1,10 @@
 # Table of contents
 
 * [SolidInvoice Documentation](README.md)
-* [Introduction](introduction/README.md)
-  * [Downloading](introduction/downloading.md)
-  * [Configuring your WebServer](introduction/configuring-your-webserver.md)
-  * [System Installation](introduction/system-installation.md)
+* [Installation Guide](installation-guide/README.md)
+  * [Downloading](installation-guide/downloading.md)
+  * [Configuring your WebServer](installation-guide/configuring-your-webserver.md)
+  * [System Installation](installation-guide/system-installation.md)
 * [Cron Job Setup](cron-job-setup.md)
 
 ## 🏢 Companies

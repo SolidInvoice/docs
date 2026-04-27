@@ -7,7 +7,9 @@ description: Setting up a cron job
 This documentation outlines how to set up a cron job to automate SolidInvoice's recurring invoices on various platforms. The cron job ensures that the software regularly generates and sends out recurring invoices.
 
 {% hint style="info" %}
-NOTE: When running from the single binary, it's not necessary to set up a cron job. Recurring tasks run automatically.
+Note
+
+When running from the single binary, it's not necessary to set up a cron job. Recurring tasks run automatically.
 {% endhint %}
 
 ***

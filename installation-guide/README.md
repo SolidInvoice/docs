@@ -1,4 +1,4 @@
-# Introduction
+# Installation Guide
 
 SolidInvoice is an open-source application that allows you to manage clients and contacts and send invoices and quotes.
 
@@ -10,13 +10,13 @@ In order to run SolidInvoice, you need at least PHP version **7.4.15**, but the 
 
 **Requirements:**
 
-* PHP (>=7.4.15)
+* PHP (>=8.2)
 * A webserver
   * Nginx (Recommended)
   * Apache
 * Any supported database
   * MySQL
   * PostgreSQL
-  * Oracle
-  * SQLServer
+  * MariaDB
+  * SQLite (Embedded Database)
 
